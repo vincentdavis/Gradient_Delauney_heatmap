@@ -16,4 +16,10 @@ trigradient_demo.py : This example is a good referance for taking a set of point
       http://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.cKDTree.html#scipy.spatial.cKDTree
       
 Useful Scipy page  http://docs.scipy.org/doc/scipy/reference/spatial.html
+
+
+For geocoding this pygeocoder seems to work well http://code.xster.net/pygeocoder/wiki/Home
+    it uses the google api.
+    
+
   
