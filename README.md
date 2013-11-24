@@ -21,8 +21,9 @@ Referance code is in the /ref folder
 Useful Scipy page  http://docs.scipy.org/doc/scipy/reference/spatial.html
 
 
-For geocoding this pygeocoder seems to work well http://code.xster.net/pygeocoder/wiki/Home
-    it uses the google api.
+For geocoding:
+    pygeocoder seems to work well http://code.xster.net/pygeocoder/wiki/Home it uses the google api.
+    geopy Have not tried.  https://code.google.com/p/geopy/wiki/GettingStarted
     
 
   
