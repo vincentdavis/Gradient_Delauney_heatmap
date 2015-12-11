@@ -30,8 +30,8 @@ plt.colorbar() # draw colorbar
 plt.plot(x, y, 'ko', ms=3)
 plt.xlim(-2,2)
 plt.ylim(-2,2)
-plt.title('griddata and contour (%d points, %d grid points)' % (npts, ngridx*ngridy))
-print ('griddata and contour seconds: %f' % (time.clock() - start))
+plt.title('griddata and contour ({0:d} points, {1:d} grid points)'.format(npts, ngridx*ngridy))
+print ('griddata and contour seconds: {0:f}'.format((time.clock() - start)))
 
 # tricontour.
 start = time.clock()
@@ -44,7 +44,7 @@ plt.colorbar()
 plt.plot(x, y, 'ko', ms=3)
 plt.xlim(-2,2)
 plt.ylim(-2,2)
-plt.title('tricontour (%d points)' % npts)
-print ('tricontour seconds: %f' % (time.clock() - start))
+plt.title('tricontour ({0:d} points)'.format(npts))
+print ('tricontour seconds: {0:f}'.format((time.clock() - start)))
 
 plt.show()
