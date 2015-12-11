@@ -44,7 +44,7 @@ for row in data:
     if rowcount in readrows:
         results = geocode.jeffco(row['SCH'])
         # this will result in lost rows
-        if results not in latlon and results != None: # make sure there are no duplicats
+        if results not in latlon and results is not None: # make sure there are no duplicats
             if len(latlon) % 100 == 0:
                 print('RowCount', rowcount, 'Val', row["TOTACTVAL"], "SCH",  row["SCH"], "len(latlon)", len(latlon))
             propvalue.append(int(row["TOTACTVAL"]))
